@@ -4,7 +4,7 @@ import logo from '../assets/logo-feza.jpg'
 export const Nav = () => {
   return (
     <div className='flex items-center justify-around mt-8'>
-        <img className="h-10 md:h-20 rounded-full shadow-2xl" src={logo}/>
+        <img className="h-10 sm:h-20 rounded-full shadow-2xl" src={logo}/>
         
     
             <ul className='flex space-x-4 md:space-x-8  uppercase font-sans font-semibold md:text-xl text-white' >
