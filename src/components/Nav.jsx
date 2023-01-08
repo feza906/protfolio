@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo-feza.jpg'
+import Link from 'react-anchor-link-smooth-scroll'
 
 export const Nav = () => {
   return (
@@ -8,10 +9,9 @@ export const Nav = () => {
         
     
             <ul className='flex space-x-4 md:space-x-8  uppercase font-sans font-semibold md:text-xl text-white' >
-                <li className='border-b hover:border-b-amber-900 transform duration-300 ease-in-out cursor-pointer hover:shadow-lg hover:text-amber-900'>Home</li>
-                <li className='border-b hover:border-b-amber-900 transform duration-300 ease-in-out cursor-pointer hover:shadow-lg hover:text-amber-900'>about</li>
-                <li className='border-b hover:border-b-amber-900 transform duration-300 ease-in-out cursor-pointer hover:shadow-lg hover:text-amber-900'>projects</li>
-                <li className='border-b hover:border-b-amber-900 transform duration-300 ease-in-out cursor-pointer hover:shadow-lg hover:text-amber-900'>contact</li>
+                <Link href='#about'><li className='border-b hover:border-b-amber-900 transform duration-300 ease-in-out cursor-pointer hover:shadow-lg hover:text-amber-900'>about</li></Link>
+                <Link href='#projects'><li className='border-b hover:border-b-amber-900 transform duration-300 ease-in-out cursor-pointer hover:shadow-lg hover:text-amber-900'>projects</li></Link>
+                <Link href='#contact'><li className='border-b hover:border-b-amber-900 transform duration-300 ease-in-out cursor-pointer hover:shadow-lg hover:text-amber-900'>contact</li></Link>
 
             </ul>
         
